@@ -96,7 +96,7 @@
 
 <script>
 export default {
-  name: 'AudioPlayerDemo',
+  name: "AudioPlayerDemo",
   data() {
     const progressBarRefName = "progressBarRef";
     const progressRefName = "progressRef";
@@ -117,7 +117,7 @@ export default {
         volumeRefName,
       },
       audioSrc:
-        "http://m801.music.126.net/20220918180609/7653f20f2256946d38fb52381cb9f547/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096448125/9f26/c61d/8ec5/ff6818dec4d407643fad991f07a6660d.mp3",
+        "https://www.cambridgeenglish.org/images/153149-movers-sample-listening-test-vol2.mp3",
     };
   },
   methods: {
@@ -126,7 +126,7 @@ export default {
       this.showVolumeControls = !this.showVolumeControls;
     },
     hideVolumeControls() {
-      this.showVolumeControls = false
+      this.showVolumeControls = false;
     },
   },
   mounted() {
